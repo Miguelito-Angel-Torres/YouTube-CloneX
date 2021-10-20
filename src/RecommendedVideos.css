@@ -1,0 +1,22 @@
+.recommendedVideos{
+    /*border: 1px solid black;*/
+    flex:0.8;
+    background-color: #f9f9f9;
+    padding-bottom: 0;
+    
+
+}
+
+.recommendedVideos > h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+.recommendedVideos__videos{
+    /* Va hacer q se ordene */
+    display: flex;
+    /* Neceseria lo ordena totalmente  */ 
+    flex-wrap: wrap;
+
+}

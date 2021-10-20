@@ -1,0 +1,13 @@
+.sidebar{
+    /* LE ESTOY DICIENDO Q OCUPE EL 20% DEL CONTENEDOR */
+    flex:0.2;
+}
+
+.sidebar > br{
+    height: 1;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

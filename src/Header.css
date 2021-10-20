@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    /*Alinacion*/
+    align-items: center;
+    /* Separacion entre ellos */
+    justify-content: space-between;
+    padding: 20px;
+
+
+
+    
+    position: sticky; /* Se pasa*/
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+.header__logo{
+    height:25px;
+    object-fit: contain;
+    margin-left: 20px;
+    
+
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+    
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+
+}
+
+.header__input >input{
+    flex: 1 ;
+    border: none;
+}
+
+.header__icon{
+    margin-right: 8px;
+
+}
+
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid #fafafa;
+    color:gray
+}
